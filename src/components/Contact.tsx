@@ -15,18 +15,18 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Name"
-            className="border border-mintGreen rounded-2xl w-full p-2 hover:border-2 hover:border-softBlue "
+            className="border border-mintGreen rounded-2xl w-full p-2 hover:border-2 hover:border-softBlue focus:outline-softBlue"
           />
           <input
             type="email"
             placeholder="Email"
-            className="border border-mintGreen rounded-2xl w-full p-2 hover:border-2 hover:border-softBlue "
+            className="border border-mintGreen rounded-2xl w-full p-2 hover:border-2 hover:border-softBlue focus:outline-softBlue "
           />
           <textarea
             name=""
             id=""
             placeholder="Message"
-            className="border border-mintGreen rounded-2xl w-full p-2 hover:border-2 hover:border-softBlue "
+            className="border border-mintGreen rounded-2xl w-full p-2 hover:border-2 hover:border-softBlue focus:outline-softBlue "
           ></textarea>
         </form>
       </div>

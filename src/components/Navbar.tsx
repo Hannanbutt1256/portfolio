@@ -33,7 +33,9 @@ const Navbar = () => {
           alt=""
           className="w-10 h-10 border rounded-full bg-mintGreen bg-gradient-to-r from-mintGreen to-softBlue object-cover"
         />
-        <h2 className="text-lg font-bold">Hannan Butt</h2>
+        <h2 className="text-lg font-bold bg-gradient-to-r from-mintGreen to-softBlue bg-clip-text text-transparent">
+          Hannan Butt
+        </h2>
       </Link>
 
       <div className="hidden md:flex flex-row items-center gap-8">
@@ -41,7 +43,7 @@ const Navbar = () => {
           <li>
             <Link
               to="Home"
-              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
+              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
               href="#"
             >
               Home
@@ -50,7 +52,7 @@ const Navbar = () => {
           <li>
             <Link
               to="About"
-              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
+              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
               href="#"
             >
               About
@@ -59,7 +61,7 @@ const Navbar = () => {
           <li>
             <Link
               to="Projects"
-              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
+              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
               href="#"
             >
               Projects
@@ -68,7 +70,7 @@ const Navbar = () => {
           <li>
             <Link
               to="Contact"
-              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
+              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
               href="#"
             >
               Contact
@@ -95,7 +97,9 @@ const Navbar = () => {
                 alt=""
                 className="w-10 h-10 border rounded-full bg-mintGreen bg-gradient-to-r from-mintGreen to-softBlue object-cover"
               />
-              <h2 className="text-lg font-bold">Hannan Butt</h2>
+              <h2 className="text-lg font-bold bg-gradient-to-r from-mintGreen to-softBlue bg-clip-text text-transparent">
+                Hannan Butt
+              </h2>
             </a>
             <button className="p-2 md:hidden" onClick={toggleMenu}>
               <FontAwesomeIcon icon={faXmark} className="text-charcoal" />
@@ -106,7 +110,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="Home"
-                className="font-medium hover:text-mintGreen"
+                className="font-medium hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:bg-clip-text hover:text-transparent"
                 href="#"
                 onClick={toggleMenu} // Close menu on click
               >
@@ -116,7 +120,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="About"
-                className="font-medium hover:text-mintGreen"
+                className="font-medium hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:bg-clip-text hover:text-transparent"
                 href="#"
                 onClick={toggleMenu} // Close menu on click
               >
@@ -126,7 +130,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="Projects"
-                className="font-medium hover:text-mintGreen"
+                className="font-medium hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:bg-clip-text hover:text-transparent"
                 href="#"
                 onClick={toggleMenu} // Close menu on click
               >
@@ -136,7 +140,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="Contact"
-                className="font-medium hover:text-mintGreen"
+                className="font-medium hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:bg-clip-text hover:text-transparent"
                 href="#"
                 onClick={toggleMenu} // Close menu on click
               >

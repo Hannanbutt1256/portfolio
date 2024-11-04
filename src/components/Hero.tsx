@@ -44,7 +44,7 @@ const Hero = () => {
             </a>
           </div>
           <a href={CV} download>
-            <button className="px-5 py-3 mt-2 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center">
+            <button className="px-5 py-3 mt-2 rounded-3xl  font-medium bg-mintGreen hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center">
               Resume
             </button>
           </a>

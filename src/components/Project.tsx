@@ -11,7 +11,7 @@ const Project = () => {
       <h1 className="text-center p-6 font-bold text-4xl bg-gradient-to-r from-mintGreen to-softBlue bg-clip-text text-transparent">
         Projects
       </h1>
-      <div className="flex flex-col gap-6 md:grid md:grid-cols-3">
+      <div className="  gap-6 grid md:grid-cols-2 lg:grid-cols-3 ">
         <a href="https://internship-eta-livid.vercel.app/" target="_blank">
           <div className="rounded-2xl bg-slate-100 p-[2px] hover:bg-gradient-to-br hover:from-mintGreen hover:to-softBlue">
             <div className="flex flex-col items-center bg-lightBeige w-full h-full rounded-2xl ">
