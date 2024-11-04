@@ -62,7 +62,11 @@ To view or edit the project locally, follow these steps:
 
 **Mobile View**
 
-![Mobile Screenshot](https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Mobile-view%20(2).PNG)
-![Mobile Screenshot](https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Mobile-view%20(1).PNG)
-![Mobile Screenshot](https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Mobile-view%20(1).PNG)
-![Mobile Screenshot](https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Mobile-view%20(1).PNG)
+
+<img src="https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Mobile-view%20(2).PNG" alt="Mobile Screenshot 1" width="300" />
+
+<img src="https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Mobile-view%20(3).PNG" alt="Mobile Screenshot 2" width="300" />
+
+<img src="https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Mobile-view%20(4).PNG" alt="Mobile Screenshot 3" width="300" />
+
+<img src="https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Mobile-view%20(1).PNG" alt="Mobile Screenshot 4" width="300" />
