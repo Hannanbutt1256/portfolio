@@ -54,7 +54,12 @@ To view or edit the project locally, follow these steps:
 ## Screenshots
 
 **Desktop View**
+
 ![Desktop Screenshot](https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Desktop-view%20(1).png)
 ![Desktop Screenshot](https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Desktop-view%20(4).png)
 ![Desktop Screenshot](https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Desktop-view%20(3).png)
 ![Desktop Screenshot](https://github.com/Hannanbutt1256/portfolio/blob/master/src/assets/Desktop-view%20(2).png)
+
+**Mobile View**
+
+![Mobile Screenshot]()
