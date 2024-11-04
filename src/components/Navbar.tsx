@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import hero from "../assets/hero.png";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   // State to manage the mobile menu toggle
@@ -26,40 +27,52 @@ const Navbar = () => {
 
   return (
     <nav className="p-2 px-7 mt-5 mx-5 font-mont bg-lightBeige text-charcoal flex justify-between items-center">
-      <a href="#" className=" flex items-center gap-4">
+      <Link href="#" className="flex items-center gap-4" to="Home">
         <img
           src={hero}
           alt=""
           className="w-10 h-10 border rounded-full bg-mintGreen bg-gradient-to-r from-mintGreen to-softBlue object-cover"
         />
         <h2 className="text-lg font-bold">Hannan Butt</h2>
-      </a>
+      </Link>
 
       <div className="hidden md:flex flex-row items-center gap-8">
         <ul className="flex flex-row gap-8">
           <li>
-            <a
+            <Link
+              to="Home"
               className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
               href="#"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to="About"
               className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
               href="#"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to="Projects"
+              className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
+              href="#"
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="Contact"
               className="px-5 py-3 rounded-3xl bg-mintGreen font-medium hover:bg-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center"
               href="#"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -76,7 +89,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="p-2 px-7 mt-5 mx-5 fixed inset-0 bg-lightBeige z-50">
           <div className="flex justify-between items-center mb-6">
-            <a href="#" className=" flex items-center gap-4">
+            <a href="#" className="flex items-center gap-4">
               <img
                 src={hero}
                 alt=""
@@ -91,19 +104,44 @@ const Navbar = () => {
 
           <ul className="flex flex-col gap-4">
             <li>
-              <a className="font-medium hover:text-mintGreen" href="#">
+              <Link
+                to="Home"
+                className="font-medium hover:text-mintGreen"
+                href="#"
+                onClick={toggleMenu} // Close menu on click
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="font-medium hover:text-mintGreen" href="#">
+              <Link
+                to="About"
+                className="font-medium hover:text-mintGreen"
+                href="#"
+                onClick={toggleMenu} // Close menu on click
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="font-medium hover:text-mintGreen" href="#">
+              <Link
+                to="Projects"
+                className="font-medium hover:text-mintGreen"
+                href="#"
+                onClick={toggleMenu} // Close menu on click
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="Contact"
+                className="font-medium hover:text-mintGreen"
+                href="#"
+                onClick={toggleMenu} // Close menu on click
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

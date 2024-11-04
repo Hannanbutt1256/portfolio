@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Hero = () => {
   return (
-    <div className="p-2 px-7 mt-5 mx-5 md:h-screen font-mont bg-lightBeige text-charcoal md:flex md:justify-center md:items-center">
+    <div
+      id="Home"
+      className="p-2 px-7 mt-5 mx-5 md:h-screen font-mont bg-lightBeige text-charcoal md:flex md:justify-center md:items-center"
+    >
       <div className="flex flex-col items-center md:flex-row md:space-x-10">
         <section className="md:w-2/3">
           <img
