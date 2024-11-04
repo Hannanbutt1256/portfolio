@@ -7,9 +7,8 @@ Welcome to my Front-End Developer Portfolio! This project showcases my skills an
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
+
 
 ## Overview
 
@@ -51,16 +50,8 @@ To view or edit the project locally, follow these steps:
 4. **Start the Development Server**
     ```bash
     npm start
-
-portfolio/
-├── src/
-│   ├── assets/          # Images and other assets
-│   ├── components/      # Reusable components like Navbar, Hero, and Sections
-│   ├── App.tsx          # Main application file
-│   ├── index.tsx        # Entry point
-│   └── styles/          # Tailwind CSS and custom styles
-└── README.md            # Project README file
   
 ## Screenshots
 
 **Desktop View**
+![Desktop Screenshot](assets/screenshots/Desktop-view(1).png)
