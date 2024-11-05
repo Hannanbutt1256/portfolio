@@ -7,7 +7,7 @@ const Contact = () => {
       <h1 className="text-center p-6 font-bold text-4xl bg-gradient-to-r from-mintGreen to-softBlue bg-clip-text text-transparent">
         Contact
       </h1>
-      <div className="flex items-center justify-center mt-40 ">
+      <div className="flex flex-col items-center justify-center mt-40 ">
         <form
           action=""
           className="flex flex-col justify-center items-center max-w-xs w-full space-y-4 p-4 bg-lightBeige "
@@ -29,6 +29,9 @@ const Contact = () => {
             className="border border-mintGreen rounded-2xl w-full p-2 hover:border-2 hover:border-softBlue focus:outline-softBlue "
           ></textarea>
         </form>
+        <button className="px-5 py-3 mt-2 rounded-3xl  font-medium bg-mintGreen hover:bg-gradient-to-r hover:from-mintGreen hover:to-softBlue hover:text-lightBeige transition-transform duration-300 ease-in text-center">
+          Submit
+        </button>
       </div>
     </div>
   );
